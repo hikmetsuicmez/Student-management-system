@@ -1,5 +1,9 @@
 package com.hikmetsuicmez.sms.service;
 
-public interface StudentService {
+import java.util.List;
 
+import com.hikmetsuicmez.sms.entity.Student;
+
+public interface StudentService {
+	List<Student> getAllStudents();
 }
